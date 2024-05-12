@@ -96,7 +96,16 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'Juan','juan@example.com','contraseña123'),(2,'María','maria@example.com','clave456'),(3,'Pedro','pedro@example.com','pwd789');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario1', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario2', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario3', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario4', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario5', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario6', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario7', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario8', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario9', 'harol123@poli.edu.co', '12345678');
+INSERT INTO usuarios (nombre, email, contraseña) VALUES ('usuario10', 'harol123@poli.edu.co', '12345678');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
