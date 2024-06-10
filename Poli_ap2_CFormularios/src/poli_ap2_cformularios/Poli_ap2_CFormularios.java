@@ -17,7 +17,7 @@ public class Poli_ap2_CFormularios {
         // TODO code application logic here
         
            // TODO code application logic here
-          // Crear una instancia del formulario
+         // Crear una instancia del formulario
         Menu MenuForm = new Menu ();
 
         // Mostrar el formulario en pantalla
