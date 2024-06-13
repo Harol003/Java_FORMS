@@ -1,0 +1,12 @@
+***************************************
+PDF Librería
+***************************************
+
+https://jar-download.com/artifacts/com.itextpdf/itextpdf/5.5.9/source-code
+
+
+***************************************
+Librería MySQL
+***************************************
+
+https://dev.mysql.com/downloads/connector/j/
